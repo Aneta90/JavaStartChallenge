@@ -15,7 +15,7 @@ public class ReadFromFile {
 
     public static List<Names> readTextFromCsv() throws FileNotFoundException {
 
-        String fileName = "/resources/Popular_Baby_Names.csv";
+        String fileName = "/home/awrobel/IdeaProjects/JavaStartChallenges/src/resources/Popular_Baby_Names.csv";
         File inputFile = new File((fileName));
         InputStream inputStream = new FileInputStream(inputFile);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
